@@ -1,0 +1,152 @@
+label {
+    color: #fff;
+}
+
+#cuerpo-index {
+    background-color: #f5f6fa;
+}
+
+#contenedor-form {
+    background-color: #f5f6fa;
+    width: 173px;
+    height: 99;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.li {
+    color: #2f3640;
+}
+
+.lr,
+.lp {
+    color: #2f3640;
+}
+
+#contenedor-a,
+#a-reg,
+#contenedor-ing-index {
+    text-align: center;
+}
+
+h1 {
+    color: #2f3640;
+    text-align: center;
+}
+
+#form-reg {
+    width: 173px;
+    height: 155px;
+    background-color: #dcdde1;
+    position: relative;
+    margin: auto;
+}
+
+#cuerpo-reg {
+    background-color: #dcdde1;
+}
+
+#caja-proyecto {
+    background-color: #f1f2f6;
+}
+
+#proyecto-form {
+    height: 102px;
+    width: 173px;
+    position: relative;
+    margin: auto;
+    background-color: #f1f2f6;
+}
+
+#cuerpo-home {
+    background-color: #5F6368;
+}
+
+.navegacion {
+    width: auto;
+    margin: 30px auto;
+    background-color: #4285f4;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.navegacion ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: #e7ff00;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #000;
+    transition: all .3s;
+}
+
+.submenu {
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9cm;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 15);
+}
+
+.table thead tr {
+    background-color: #15cfd4;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table th,
+.table td {
+    padding: 5px 162px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dcdde1;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: antiquewhite;
+}
+
+table tbody tr:nth-last-of-type {
+    border-bottom: 2px solid #15cfd4;
+}
