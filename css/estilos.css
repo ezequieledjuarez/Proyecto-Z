@@ -1,25 +1,23 @@
 label {
-    color: #fff;
+    color: #000;
 }
 
-#cuerpo-index {
-    background-color: #f5f6fa;
+.body {
+    background: linear-gradient(to left, blue, lightblue);
+}
+
+#cuerpo-home {
+    background-color: #5F6368;
 }
 
 #contenedor-form {
-    background-color: #f5f6fa;
     width: 173px;
     height: 99;
     margin-right: auto;
     margin-left: auto;
 }
 
-.li {
-    color: #2f3640;
-}
-
-.lr,
-.lp {
+.lista {
     color: #2f3640;
 }
 
@@ -30,7 +28,7 @@ label {
 }
 
 h1 {
-    color: #2f3640;
+    color: ;
     text-align: center;
 }
 
@@ -42,12 +40,8 @@ h1 {
     margin: auto;
 }
 
-#cuerpo-reg {
-    background-color: #dcdde1;
-}
-
 #caja-proyecto {
-    background-color: #f1f2f6;
+    background: repeating-linear-gradient(to right, black, white)
 }
 
 #proyecto-form {
@@ -55,11 +49,10 @@ h1 {
     width: 173px;
     position: relative;
     margin: auto;
-    background-color: #f1f2f6;
 }
 
-#cuerpo-home {
-    background-color: #5F6368;
+.lista-proyecto {
+    color: bisque;
 }
 
 .navegacion {
